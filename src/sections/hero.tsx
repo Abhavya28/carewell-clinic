@@ -5,10 +5,10 @@ const Hero = () => {
     return (
         <section className="px-4 sm:px-6 md:px-10 py-12 md:py-20 font-body">
             <div className="grid md:grid-cols-2 gap-10 items-center">
-                
+
                 <div className="flex flex-col gap-6 text-darkText">
-                    
-                    <div className="bg-[#E2F3F3] rounded-lg text-[#16b8a8] px-4 py-2 flex gap-2 w-fit justify-center items-center">
+
+                    <div className="bg-[#E2F3F3] rounded-2xl text-[#16b8a8] px-4 py-2 flex gap-2 w-fit justify-center items-center">
                         <Sparkles size={16} />
                         <p className="text-sm sm:text-base">Trusted by 5000+ families</p>
                     </div>
@@ -18,7 +18,7 @@ const Hero = () => {
                             Trusted Healthcare for Your Entire Family
                         </h1>
 
-                        <p className="text-base sm:text-lg">
+                        <p className="text-lightText sm:text-lg">
                             Experience compassionate, expert medical care in a modern clinic.
                             From routine checkups to specialized treatments, we're here for
                             every stage of your family's health journey.
@@ -53,8 +53,12 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <div>
-                    img
+                <div className="w-full">
+                    <img
+                        src="/hero.jpg"
+                        alt="Doctor consulting a family in clinic"
+                        className="w-full h-[300px] sm:h-[400px] md:h-[500px] object-cover rounded-3xl shadow-xl"
+                    />
                 </div>
             </div>
         </section>

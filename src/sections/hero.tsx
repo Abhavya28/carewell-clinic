@@ -55,7 +55,7 @@ const Hero = () => {
 
                 <div className="w-full">
                     <img
-                        src="/hero.jpg"
+                        src="/images/hero.jpg"
                         alt="Doctor consulting a family in clinic"
                         className="w-full h-[300px] sm:h-[400px] md:h-[500px] object-cover rounded-3xl shadow-xl"
                     />

@@ -1,3 +1,5 @@
+"use client"
+
 import { Award, CircleCheckBig } from "lucide-react"
 import Rating from '@mui/material/Rating';
 

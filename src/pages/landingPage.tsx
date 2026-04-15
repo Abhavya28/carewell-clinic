@@ -1,7 +1,9 @@
 import Navbar from "../components/navbar"
+import Book from "../sections/book"
 import Doctor from "../sections/doctor"
 import Hero from "../sections/hero"
 import Services from "../sections/services"
+import Testimonials from "../sections/testimonials"
 import WhyChooseUs from "../sections/whyChooseUs"
 
 const LandingPage = () => {
@@ -12,6 +14,8 @@ const LandingPage = () => {
         <Services />
         <Doctor />
         <WhyChooseUs />
+        <Testimonials />
+        <Book />
     </div>
   )
 }

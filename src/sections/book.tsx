@@ -3,7 +3,7 @@ import { Button } from "../components/ui/button"
 
 const Book = () => {
   return (
-    <section className="font-body shadow-2xl">
+    <section className="font-body shadow-2xl my-10">
       <div className="relative overflow-hidden bg-gradient-to-br from-primary to-primary/90 shadow-2xl px-6 sm:px-10 md:px-16 py-12 md:py-16">
         
         {/* Decorative glow */}

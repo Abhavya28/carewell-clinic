@@ -4,6 +4,7 @@ import Doctor from "../sections/doctor"
 import Hero from "../sections/hero"
 import Services from "../sections/services"
 import Testimonials from "../sections/testimonials"
+import Visit from "../sections/visit"
 import WhyChooseUs from "../sections/whyChooseUs"
 
 const LandingPage = () => {
@@ -16,6 +17,7 @@ const LandingPage = () => {
         <WhyChooseUs />
         <Testimonials />
         <Book />
+        <Visit />
     </div>
   )
 }

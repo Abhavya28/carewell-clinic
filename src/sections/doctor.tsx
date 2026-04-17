@@ -20,7 +20,7 @@ const doctorInfo = [
 
 const Doctor = () => {
     return (
-        <section className="px-4 sm:px-6 md:px-10 py-12 md:py-20 font-body bg-[#F8FAFC]">
+        <section id="doctor" className="px-4 sm:px-6 md:px-10 py-12 md:py-20 font-body bg-[#F8FAFC]">
             <div className="grid md:grid-cols-2 gap-10 items-center">
                 <div className="w-full">
                     <img

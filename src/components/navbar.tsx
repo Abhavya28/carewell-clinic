@@ -1,5 +1,6 @@
 import { Phone, Calendar } from "lucide-react"
 import { Button } from "../components/ui/button"
+import Link from "next/link"
 
 const Navbar = () => {
     return (
@@ -17,13 +18,17 @@ const Navbar = () => {
 
                 <div className="hidden sm:flex items-center gap-3">
                     <Button variant="ghost" size="lg" className="text-primary text-md">
-                        <Phone />
-                        <p>Call Now</p>
+                        <Link href="#visit" className="flex gap-2 items-center">
+                            <Phone />
+                            <p>Call Now</p>
+                        </Link>
                     </Button>
 
                     <Button className="text-white text-md" size="lg">
-                        <Calendar />
-                        <p>Book Appointment</p>
+                        <Link href="#visit" className="flex gap-2 items-center">
+                            <Calendar />
+                            <p>Book Appointment</p>
+                        </Link>
                     </Button>
                 </div>
 

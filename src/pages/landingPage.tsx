@@ -1,3 +1,4 @@
+import Footer from "../components/footer"
 import Navbar from "../components/navbar"
 import Book from "../sections/book"
 import Doctor from "../sections/doctor"
@@ -18,6 +19,7 @@ const LandingPage = () => {
         <Testimonials />
         <Book />
         <Visit />
+        <Footer />
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import { Calendar } from "lucide-react"
 import { Button } from "../components/ui/button"
+import Link from "next/link"
 
 const Book = () => {
   return (
@@ -25,8 +26,10 @@ const Book = () => {
             size="lg"
             className="bg-white text-primary hover:bg-white/90 rounded-xl px-6 py-6 text-base font-semibold shadow-lg"
           >
+            <Link href="#visit" className="flex gap-2 items-center">
             <Calendar size={18} />
-            Schedule Visit Now
+            <p>Schedule Visit Now</p>
+            </Link>
           </Button>
         </div>
       </div>

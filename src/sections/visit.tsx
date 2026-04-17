@@ -14,7 +14,7 @@ export const contactDetails = [
 
 const Visit = () => {
     return (
-        <section className="px-12 sm:px-14 md:px-18 py-12 md:py-20 font-body">
+        <section id="visit" className="px-12 sm:px-14 md:px-18 py-12 md:py-20 font-body">
 
             <Title
                 headline="Visit Our Clinic"

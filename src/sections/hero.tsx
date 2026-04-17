@@ -1,9 +1,10 @@
 import { Calendar, Phone, Sparkles } from "lucide-react"
 import { Button } from "../components/ui/button"
+import Link from "next/link"
 
 const Hero = () => {
     return (
-        <section className="px-4 sm:px-6 md:px-10 py-12 md:py-20 font-body">
+        <section id="hero" className="px-4 sm:px-6 md:px-10 py-12 md:py-20 font-body">
             <div className="grid md:grid-cols-2 gap-10 items-center">
 
                 <div className="flex flex-col gap-6 text-darkText">
@@ -27,13 +28,17 @@ const Hero = () => {
 
                     <div className="flex flex-col sm:flex-row gap-4">
                         <Button className="text-white text-md" size="lg">
-                            <Calendar />
-                            <p>Book Appointment</p>
+                            <Link href="#visit" className="flex gap-2 items-center">
+                                <Calendar />
+                                <p>Book Appointment</p>
+                            </Link>
                         </Button>
 
                         <Button variant="outline" size="lg" className="text-primary text-md">
-                            <Phone />
-                            <p>Call Now</p>
+                            <Link href="#visit" className="flex gap-2 items-center">
+                                <Phone />
+                                <p>Call Now</p>
+                            </Link>
                         </Button>
                     </div>
 

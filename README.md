@@ -11,8 +11,9 @@
 
 ## 📸 Screenshots  
 
-<img src="./screenshots/hero.png" width="45%" />
-<img src="./screenshots/services.png" width="45%" />
+<img src="./screenshots/Home.png" width="45%" />
+<img src="./screenshots/Services.png" width="45%" />
+<img src="./screenshots/Visit.png" width="45%" />
 
 ---
 

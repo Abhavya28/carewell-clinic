@@ -12,7 +12,7 @@
 ## 📸 Screenshots  
 
 <img src="./screenshots/Home.png" />
-<img src="./screenshots/Services.png />
+<img src="./screenshots/Services.png" />
 <img src="./screenshots/Visit.png" />
 
 ---
